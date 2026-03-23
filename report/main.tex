@@ -18,6 +18,8 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{indentfirst}
+\usepackage{fontawesome5}
+\tcbuselibrary{most}
 
 \pretitle{\begin{center}\LARGE\bfseries}
 \posttitle{\par\end{center}\vspace{0.5em}}
@@ -127,8 +129,9 @@
     \end{tcolorbox}
 
 \section{Вывод} 
-
-В ходе выполнения работы был реализован экстрактивный метод tf-idf для автоматического создания рефератов текстов. 
+    В ходе выполнения работы был реализован экстрактивный метод tf-idf для автоматического создания рефератов текстов. 
 Проведена оценка качества полученных рефератов, которая приведена в таблице 1. Метод дает неплохое совпадение по отдельным словам, но в парах слов, из-за перифразов в эталонных рефератах, качество снижается.
-
+\\\\
+    \href{https://github.com/Berletm/text-summarizer}
+        {\color{black!60}\faGithub\small Исходный код}
 \end{document}
